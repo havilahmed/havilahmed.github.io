@@ -286,6 +286,10 @@
     .navbar-light .navbar-brand img {
         max-height: 45px;
     }
+
+    .navbar-collapse .zocdoc{
+        margin-top: 6px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -296,6 +300,9 @@
         left: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .1);
         z-index: 999;
+    }
+    .navbar-collapse .zocdoc{
+        margin-left: 16px;
     }
     
     .sticky-top.navbar-light {
@@ -805,7 +812,7 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(rgba(224, 194, 165, 1), rgba(224, 194, 165, 1)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(224, 194, 165, 1), rgba(224, 194, 165, 1));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1061,7 +1068,7 @@
 
 /*** Contact Start ***/
 .contact {
-    background: linear-gradient(rgba(224, 194, 165, 1), rgba(224, 194, 165, 1)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(224, 194, 165, 1), rgba(224, 194, 165, 1));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
