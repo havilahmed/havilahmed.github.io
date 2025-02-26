@@ -36,6 +36,25 @@
 
     <!-- Data Poison Anitspam -->
     <script src="https://unpkg.com/@botpoison/browser" async></script>
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16895842407"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16895842407');
+    </script>
+
+    <!-- Event snippet for Book appointment conversion page -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-16895842407/LJPcCM60kaMaEOewyPg-',
+            'value': 1.0,
+            'currency': 'USD'
+        });
+    </script>
 </head>
 
 <body>
