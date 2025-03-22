@@ -330,6 +330,10 @@
     .navbar-light .navbar-nav .nav-link.nav-contact::before {
         display: none;
     }
+
+    .appointment-button {
+        display: none;
+    }
 }
 /*** Carousel Hero Header Start ***/
 .header-carousel {
