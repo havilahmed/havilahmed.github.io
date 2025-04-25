@@ -302,7 +302,7 @@
         z-index: 999;
     }
     .navbar-collapse .zocdoc{
-        margin-left: 16px;
+        margin-left: 0px;
     }
     
     .sticky-top.navbar-light {
