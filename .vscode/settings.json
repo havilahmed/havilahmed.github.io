@@ -19,5 +19,6 @@
     "VISSIM",
     "VISUM",
     "Yarney"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
